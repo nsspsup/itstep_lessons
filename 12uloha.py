@@ -3,7 +3,6 @@ import pickle
 
 class Country():
     def __init__(self):
-    # Dictionary to store country-capital data
         self.country_capitals = {}
 
 
@@ -51,7 +50,7 @@ class Country():
             print("No saved data found.")
 
 
-# Sample usage
+
 if __name__ == "__main__":
     cntr = Country()
     while True:
